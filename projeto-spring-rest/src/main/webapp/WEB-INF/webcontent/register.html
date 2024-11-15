@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7e1c429e58.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="register">
+      <div class="register__container">
+        <i id="form__icon" class="fas fa-glasses"></i>
+        <label for="username__input" class="form__off__text">crie sua conta</label>
+        <form>
+        <div class="form__area">
+          <div class="form__group">
+            <label for="username__input">nome de usuário</label>
+            <input
+              type="text"
+              id="username__input"
+              name="username"
+              class="textbox__class"
+              placeholder="João Pedro"
+              autocomplete="off"
+            />
+          </div>
+          <div class="form__group">
+            <label for="email__input">email</label>
+            <input
+              type="text"
+              id="email__input"
+              name="username"
+              class="textbox__class"
+              placeholder="exemplo@nerdmail.com"
+              autocomplete="off"
+            />
+          </div>
+          <div class="form__group">
+            <div class="password__div">
+              <label for="password__register">senha</label>
+              <input
+                type="password"
+                id="password__register"
+                name="password"
+                class="textbox__class"
+                placeholder="digite sua senha"
+                autocomplete="off"
+              />
+              <span class="password_toggle_icon"
+                ><i class="fa-regular fa-eye"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="register__menu">
+          <a href="" id="register__button" class="button">Registrar</a>
+          <a href="./register.html" id="already__account" class="form__alternative"
+            >Já tem uma conta?</a
+          >
+        </div>
+      </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
